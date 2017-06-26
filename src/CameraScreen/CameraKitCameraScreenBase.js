@@ -76,9 +76,9 @@ export default class CameraScreenBase extends Component {
 
   getCameraOptions() {
     const cameraOptions = {
-      flashMode: 'auto',
-      focusMode: 'off',
-      zoomMode: 'off'
+      flashMode: 'off',
+      focusMode: 'on',
+      zoomMode: 'on'
     };
     if (this.props.cameraRatioOverlay) {
       const overlay = this.props.cameraRatioOverlay;
